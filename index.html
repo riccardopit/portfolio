@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>riccardopit</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <video autoplay muted loop id="background-video">
+        <source src="assets/videos/bg-video.mp4" type="video/mp4">
+    </video>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top p-0">
+        <div class="container-fluid">
+            <button class="navbar-toggler mx-2 my-3" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pb-3 pb-sm-0" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active p-4" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active p-4" aria-current="page" href="#about-me">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active p-4" aria-current="page" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active p-4" aria-current="page" href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container d-flex flex-column justify-content-center align-items-center text-center text-white mb-5"
+        id="home">
+        <h1 class="fst-italic" id="name">Riccardo Pittalis</h1>
+        <p class="fst-italic" id="position">Software Developer</p>
+    </div>
+
+    <div class="container d-flex flex-column flex-lg-row align-items-center text-white mb-5" id="about-me">
+        <div class="container mb-5 mb-lg-0 px-lg-4 px-xl-5">
+            <h1 class="fst-italic">About me</h1>
+            <p class="text-justify">
+                Hello! My name is Riccardo, I'm 26 years old and I'm from Udine, Italy. I'm a guy strongly interested in
+                the world of
+                software developement. My background is a little bit particular. During the high school I studied
+                Mechanics and Mechatronics.
+                After that I attended a two-year course of specialization in Mechatronics and Automation, which opened
+                me the door
+                to the world of work. I got a position as PLC software developer for an international company involved
+                in the production of machines
+                for steel manufacturing processes. Thanks to this opportunity I get in touch with the world of software
+                development
+                and I also traveled the world, which allows me to improve my spoken English and know new people with
+                different cultures.
+                As a self-taught, I follow some courses and tutorials which allow me to get basic
+                knowledge about the following technologies:
+            </p>
+            <div class="container d-flex flex-column align-items-center text-white">
+                <div class="container">
+                    <div class="d-flex justify-content-around align-items-center mt-2">
+                        <img width="48" height="48" src="assets/images/icons/html5.png" alt="html5-icon" title="HTML 5" />
+                        <img width="48" height="48" src="assets/images/icons/css3.png" alt="css3-icon" title="CSS 3" />
+                        <img width="48" height="48" src="assets/images/icons/javascript.png" alt="javascript-icon"
+                            title="JavaScript" />
+                        <img width="48" height="48" src="assets/images/icons/bootstrap.png" alt="bootstrap-icon"
+                            title="Bootstrap" />
+                        <!--<img width="48" height="48" src="assets/images/icons/vuejs.png" alt="vuejs-icon" title="Vue.js" />-->
+                        <div class="icons-description">
+                            <i class="bi bi-arrow-left"></i>
+                            <p class="d-inline ml-2 my-0 fst-italic">Front-End</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-around align-items-center mt-2">
+                        <div class="icons-description">
+                            <p class="d-inline mr-2 my-0 fst-italic">Back-End</p>
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
+                        <img width="48" height="48" src="assets/images/icons/python.png" alt="python-icon" title="Python" />
+                        <img width="48" height="48" src="assets/images/icons/django.png" alt="django-icon" title="Django" />
+                        <img width="48" height="48" src="assets/images/icons/database.png" alt="database-icon"
+                            title="Database" />
+                        <!--<img width="48" height="48" src="assets/images/icons/java.png" alt="java-icon" title="Java" />-->
+                        <!--<img width="48" height="48" src="assets/images/icons/csharp.png" alt="csharp-icon" title="C#" />-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container px-lg-4 px-xl-5">
+            <div class="card bg-dark align-items-center">
+                <img src="assets/images/riccardopit.png" alt="riccardopit" width="200" class="rounded-circle mt-4">
+                <div class="card-body text-center text-white">
+                    <h1 class="card-title fst-italic">Riccardo Pittalis</h1>
+                    <p class="card-text fst-italic">Software Developer</p>
+                    <div class="d-flex justify-content-evenly">
+                        <button type="button" class="btn btn-dark btn-lg rounded-circle">
+                            <a href="https://www.linkedin.com/in/riccardo-pittalis/" target="_blank"
+                                class="bi bi-linkedin text-white social-button"></a>
+                        </button>
+                        <button type="button" class="btn btn-dark btn-lg rounded-circle">
+                            <a href="https://github.com/riccardopit/" target="_blank"
+                                class="bi bi-github text-white social-button"></a>
+                        </button>
+                        <button type="button" class="btn btn-dark btn-lg rounded-circle">
+                            <a href="https://www.instagram.com/riccardopit_dev/" target="_blank"
+                                class="bi bi-instagram text-white social-button"></a>
+                        </button>
+                        <button type="button" class="btn btn-dark btn-lg rounded-circle">
+                            <a href="https://twitter.com/riccardopit_dev/" target="_blank"
+                                class="bi bi-twitter-x text-white social-button"></a>
+                        </button>
+                    </div>
+                    <button type="button" class="btn btn-dark btn-lg mt-2">
+                        <a href="mailto:riccardo.pittalis97@gmail.com" target="_blank"
+                            class="text-decoration-none text-white">Send me an e-mail</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-flex align-items-center mb-5" id="projects">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-5 g-sm-5 justify-content-center">
+            <div class="col">
+                <div class="card bg-dark h-100 text-white">
+                    <img src="assets/images/freecodecamp.png" class="card-img-top w-100" alt="freecodecamp">
+                    <div class="card-body">
+                        <h5 class="card-title">freeCodeCamp exercises</h5>
+                        <p class="card-text">
+                            All the exercises completed until now following the learning platform
+                            <a href="https://www.freecodecamp.org/" target="_blank"
+                                class="link-offset-2 learning-link">freeCodeCamp.org</a>.
+                        </p>
+                        <p>Technologies used:</p>
+                        <div class="d-flex justify-content-start flex-wrap">
+                            <img width="48" height="48" src="assets/images/icons/html5.png" alt="html5-icon"
+                                title="HTML 5" />
+                            <img width="48" height="48" src="assets/images/icons/css3.png" alt="css3-icon"
+                                title="CSS 3" />
+                            <img width="48" height="48" src="assets/images/icons/javascript.png" alt="javascript-icon"
+                                title="JavaScript" />
+                            <img width="48" height="48" src="assets/images/icons/python.png" alt="python-icon"
+                                title="Python" />
+                            <img width="48" height="48" src="assets/images/icons/database.png" alt="database-icon"
+                                title="Database" />
+                            <!--<img width="48" height="48" src="assets/images/icons/csharp.png" alt="csharp-icon"
+                                title="C#" />-->
+                        </div>
+                        <a href="https://github.com/riccardopit/freeCodeCamp" target="_blank"
+                            class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-dark h-100 text-white">
+                    <img src="assets/images/programmare_in_python.png" class="card-img-top w-100" alt="forum">
+                    <div class="card-body">
+                        <h5 class="card-title">Forum</h5>
+                        <p class="card-text">
+                            Guided project developed following the Italian learning platform
+                            <a href="https://www.programmareinpython.it/" target="_blank"
+                                class="link-offset-2 learning-link">programmareinpython.it</a>.
+                        </p>
+                        <p>Technologies used:</p>
+                        <div class="d-flex justify-content-start flex-wrap">
+                            <img width="48" height="48" src="assets/images/icons/html5.png" alt="html5-icon"
+                                title="HTML 5" />
+                            <img width="48" height="48" src="assets/images/icons/css3.png" alt="css3-icon"
+                                title="CSS 3" />
+                            <img width="48" height="48" src="assets/images/icons/bootstrap.png" alt="bootstrap-icon"
+                                title="Bootstrap" />
+                            <img width="48" height="48" src="assets/images/icons/python.png" alt="python-icon"
+                                title="Python" />
+                            <img width="48" height="48" src="assets/images/icons/django.png" alt="django-icon"
+                                title="Django" />
+                            <img width="48" height="48" src="assets/images/icons/database.png" alt="database-icon"
+                                title="Database" />
+                        </div>
+                        <a href="http://167.172.34.132/" target="_blank"
+                            class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="col">
+                <div class="card bg-dark h-100 text-white">
+                    <img src="assets/images/freecodecamp.png" class="w-100" alt="question-time">
+                    <div class="card-body">
+                        <h5 class="card-title">Question Time</h5>
+                        <p class="card-text">
+                            Guided project developed following the Italian learning platform
+                            <a href="https://www.programmareinpython.it/" target="_blank"
+                                class="link-offset-2 learning-link">programmareinpython.it</a>.
+                        </p>
+                        <p>Technologies used:</p>
+                        <div class="d-flex justify-content-start flex-wrap">
+                            <img width="48" height="48" src="assets/images/icons/html5.png" alt="html5-icon"
+                                title="HTML 5" />
+                            <img width="48" height="48" src="assets/images/icons/css3.png" alt="css3-icon"
+                                title="CSS 3" />
+                            <img width="48" height="48" src="assets/images/icons/javascript.png" alt="javascript-icon"
+                                title="JavaScript" />
+                        </div>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </div>
+
+    <div class="container d-flex flex-column align-items-center text-center text-white" id="contacts">
+        <div class="d-flex justify-content-between socials">
+            <button type="button" class="btn btn-dark btn-lg rounded-circle">
+                <a href="https://www.linkedin.com/in/riccardo-pittalis/" target="_blank"
+                    class="bi bi-linkedin text-white social-button"></a>
+            </button>
+            <button type="button" class="btn btn-dark btn-lg rounded-circle">
+                <a href="https://github.com/riccardopit/" target="_blank"
+                    class="bi bi-github text-white social-button"></a>
+            </button>
+            <button type="button" class="btn btn-dark btn-lg rounded-circle">
+                <a href="https://www.instagram.com/riccardopit_dev/" target="_blank"
+                    class="bi bi-instagram text-white social-button"></a>
+            </button>
+            <button type="button" class="btn btn-dark btn-lg rounded-circle">
+                <a href="https://twitter.com/riccardopit_dev/" target="_blank"
+                    class="bi bi-twitter-x text-white social-button"></a>
+            </button>
+        </div>
+        <button type="button" class="btn btn-dark btn-lg my-5">
+            <a href="mailto:riccardo.pittalis97@gmail.com" target="_blank" class="text-decoration-none text-white">Send
+                me an e-mail</a>
+        </button>
+        <p>Created by Riccardo Pittalis. Icons by <a href="https://icons8.com/" target="_blank"
+                class="link-offset-2">Icons8</a>.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

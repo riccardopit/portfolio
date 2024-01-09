@@ -1,0 +1,135 @@
+html{
+    scroll-padding-top: 2.5em;
+}
+
+body{
+    background: black;
+}
+
+#background-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    background-color: #000000;
+}
+
+#home{
+    min-height: 100vh;
+}
+
+#name{
+    font-size: 5.5em;
+}
+
+#position{
+    font-size: 2.5em;
+}
+
+#about-me{
+    min-height: 100vh;
+}
+
+#about-me .card{
+    border-top-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+}
+
+#about-me .card img{
+    background-color: #000000;
+}
+
+#about-me button:hover{
+    background-color: #000000;
+    border-color: #000000;
+}
+
+#projects{
+    min-height: 100vh;
+}
+
+#projects .card{
+    transition: 0.2s;
+}
+
+#projects .card:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#projects .learning-link{
+    position: relative;
+    z-index: 2;
+}
+
+.culo{
+    height: 38em;
+}
+
+.culone{
+    height: 70%;
+    object-position: top;
+    width: fit-content;
+    text-align: center;
+}
+
+#contacts .socials{
+    width: 300px;
+}
+
+.social-button{
+    font-size: 1.5em;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1399px) {
+
+}
+
+@media only screen and (max-width: 1199px) {
+
+}
+
+@media only screen and (max-width: 991px) {
+    html{
+        scroll-padding-top: 5em;
+    }
+    #name{
+        font-size: 4.5em;
+    }
+    #position{
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #name{
+      font-size: 3.5em;
+    }
+    #position{
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    #name{
+      font-size: 2.5em;
+    }
+    #position{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .icons-description{
+        display: none;
+    }
+}
