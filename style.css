@@ -10,9 +10,20 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    min-width: 100%; 
-    min-height: 100%;
+    min-height: 100vh;
+    min-width: 100vw;
     z-index: -1;
+}
+
+#background-video-safari{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    z-index: 1;
+    background-image: url("assets/videos/bg-video.mp4");
+    background-color: transparent;
 }
 
 .navbar-nav .nav-item .nav-link:hover{
@@ -65,17 +76,6 @@ body{
 #projects .learning-link{
     position: relative;
     z-index: 2;
-}
-
-.culo{
-    height: 38em;
-}
-
-.culone{
-    height: 70%;
-    object-position: top;
-    width: fit-content;
-    text-align: center;
 }
 
 #contacts .socials{
